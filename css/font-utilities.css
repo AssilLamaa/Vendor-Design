@@ -1,0 +1,140 @@
+/* Font Utility Classes */
+
+/* Font Sizes */
+.text-xs { font-size: var(--text-xs) !important; }
+.text-sm { font-size: var(--text-sm) !important; }
+.text-base { font-size: var(--text-base) !important; }
+.text-lg { font-size: var(--text-lg) !important; }
+.text-xl { font-size: var(--text-xl) !important; }
+.text-2xl { font-size: var(--text-2xl) !important; }
+.text-3xl { font-size: var(--text-3xl) !important; }
+.text-4xl { font-size: var(--text-4xl) !important; }
+.text-5xl { font-size: var(--text-5xl) !important; }
+.text-6xl { font-size: var(--text-6xl) !important; }
+
+/* Font Weights */
+.font-light { font-weight: var(--font-light) !important; }
+.font-normal { font-weight: var(--font-normal) !important; }
+.font-medium { font-weight: var(--font-medium) !important; }
+.font-semibold { font-weight: var(--font-semibold) !important; }
+.font-bold { font-weight: var(--font-bold) !important; }
+.font-extrabold { font-weight: var(--font-extrabold) !important; }
+
+/* Font Families */
+.font-primary { font-family: var(--font-family-primary) !important; }
+.font-secondary { font-family: var(--font-family-secondary) !important; }
+
+/* Line Heights */
+.leading-tight { line-height: var(--leading-tight) !important; }
+.leading-snug { line-height: var(--leading-snug) !important; }
+.leading-normal { line-height: var(--leading-normal) !important; }
+.leading-relaxed { line-height: var(--leading-relaxed) !important; }
+.leading-loose { line-height: var(--leading-loose) !important; }
+
+/* Text Colors */
+.text-primary { color: var(--text-primary) !important; }
+.text-secondary { color: var(--text-secondary) !important; }
+.text-light { color: var(--text-light) !important; }
+.text-white { color: white !important; }
+.text-black { color: black !important; }
+
+/* Text Alignment */
+.text-left { text-align: left !important; }
+.text-center { text-align: center !important; }
+.text-right { text-align: right !important; }
+.text-justify { text-align: justify !important; }
+
+/* Text Transform */
+.uppercase { text-transform: uppercase !important; }
+.lowercase { text-transform: lowercase !important; }
+.capitalize { text-transform: capitalize !important; }
+.normal-case { text-transform: none !important; }
+
+/* Text Decoration */
+.underline { text-decoration: underline !important; }
+.no-underline { text-decoration: none !important; }
+.line-through { text-decoration: line-through !important; }
+
+/* Letter Spacing */
+.tracking-tight { letter-spacing: -0.025em !important; }
+.tracking-normal { letter-spacing: 0em !important; }
+.tracking-wide { letter-spacing: 0.025em !important; }
+.tracking-wider { letter-spacing: 0.05em !important; }
+.tracking-widest { letter-spacing: 0.1em !important; }
+
+/* Responsive Font Sizes */
+@media (max-width: 768px) {
+    .md\:text-xs { font-size: var(--text-xs) !important; }
+    .md\:text-sm { font-size: var(--text-sm) !important; }
+    .md\:text-base { font-size: var(--text-base) !important; }
+    .md\:text-lg { font-size: var(--text-lg) !important; }
+    .md\:text-xl { font-size: var(--text-xl) !important; }
+    .md\:text-2xl { font-size: var(--text-2xl) !important; }
+    .md\:text-3xl { font-size: var(--text-3xl) !important; }
+    .md\:text-4xl { font-size: var(--text-4xl) !important; }
+    .md\:text-5xl { font-size: var(--text-5xl) !important; }
+    .md\:text-6xl { font-size: var(--text-6xl) !important; }
+}
+
+@media (max-width: 480px) {
+    .sm\:text-xs { font-size: var(--text-xs) !important; }
+    .sm\:text-sm { font-size: var(--text-sm) !important; }
+    .sm\:text-base { font-size: var(--text-base) !important; }
+    .sm\:text-lg { font-size: var(--text-lg) !important; }
+    .sm\:text-xl { font-size: var(--text-xl) !important; }
+    .sm\:text-2xl { font-size: var(--text-2xl) !important; }
+    .sm\:text-3xl { font-size: var(--text-3xl) !important; }
+    .sm\:text-4xl { font-size: var(--text-4xl) !important; }
+    .sm\:text-5xl { font-size: var(--text-5xl) !important; }
+    .sm\:text-6xl { font-size: var(--text-6xl) !important; }
+}
+
+/* Common Text Combinations */
+.heading-1 {
+    font-size: var(--text-4xl);
+    font-weight: var(--font-bold);
+    line-height: var(--leading-tight);
+    font-family: var(--font-family-primary);
+}
+
+.heading-2 {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-semibold);
+    line-height: var(--leading-tight);
+    font-family: var(--font-family-primary);
+}
+
+.heading-3 {
+    font-size: var(--text-2xl);
+    font-weight: var(--font-semibold);
+    line-height: var(--leading-tight);
+    font-family: var(--font-family-primary);
+}
+
+.body-large {
+    font-size: var(--text-lg);
+    font-weight: var(--font-normal);
+    line-height: var(--leading-relaxed);
+    font-family: var(--font-family-primary);
+}
+
+.body-medium {
+    font-size: var(--text-base);
+    font-weight: var(--font-normal);
+    line-height: var(--leading-relaxed);
+    font-family: var(--font-family-primary);
+}
+
+.body-small {
+    font-size: var(--text-sm);
+    font-weight: var(--font-normal);
+    line-height: var(--leading-relaxed);
+    font-family: var(--font-family-primary);
+}
+
+.caption {
+    font-size: var(--text-xs);
+    font-weight: var(--font-normal);
+    line-height: var(--leading-normal);
+    font-family: var(--font-family-primary);
+} 

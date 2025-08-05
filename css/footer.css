@@ -1,0 +1,149 @@
+/* Footer Styles */
+.footer {
+    background: linear-gradient(135deg, #3264F5 0%, #E0B9F9 100%);
+    color: white;
+    position: relative;
+}
+
+.footer-main {
+    padding: 60px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-title {
+    font-size: var(--text-3xl);
+    font-weight: var(--font-medium);
+    margin-bottom: var(--spacing-2xl);
+    color: white;
+    line-height: var(--leading-tight);
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.contact-method {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    text-align: left;
+}
+
+.contact-icon {
+    width: 50px;
+    height: 50px;
+    background: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #3264F5;
+    flex-shrink: 0;
+}
+
+.contact-image {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-label {
+    font-weight: var(--font-medium);
+    font-size: var(--text-sm);
+    margin: 0 0 var(--spacing-xs) 0;
+    color: white;
+}
+
+.contact-value {
+    font-size: var(--text-xs);
+    margin: 0;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-bottom {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: white;
+    font-size: var(--text-sm);
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    .footer-title {
+        font-size: var(--text-2xl);
+        margin-bottom: var(--spacing-xl);
+    }
+    
+    .contact-methods {
+        gap: 30px;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contact-method {
+        text-align: center;
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .contact-icon {
+        width: 45px;
+        height: 45px;
+    }
+    
+    .contact-image {
+        width: 22px;
+        height: 22px;
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-main {
+        padding: 40px 15px;
+    }
+    
+    .footer-title {
+        font-size: 1.8rem;
+        margin-bottom: 30px;
+    }
+    
+    .contact-methods {
+        gap: 25px;
+    }
+    
+    .contact-icon {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .contact-image {
+        width: 20px;
+        height: 20px;
+    }
+    
+    .contact-label {
+        font-size: var(--text-sm);
+    }
+    
+    .contact-value {
+        font-size: var(--text-xs);
+    }
+} 
