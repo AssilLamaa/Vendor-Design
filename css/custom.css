@@ -167,7 +167,7 @@
 .features-container {
     max-width: 90%;
     margin: 0 auto;
-    padding: 0 var(--spacing-lg);
+    padding: 0 20px;
 }
 
 .features-title {
@@ -275,6 +275,7 @@
 
     .features-container {
         max-width: 85%;
+        padding: 0 16px;
     }
 
     .item {
@@ -363,6 +364,7 @@
 
     .features-container {
         max-width: 90%;
+        padding: 0 10px;
     }
 
     .item {
@@ -437,7 +439,7 @@
 }
 
 .global-selling-container {
-    padding: var(--spacing-2xl) var(--spacing-lg);
+    padding: var(--spacing-2xl) 20px;
 }
 
 .global-selling-title {
@@ -614,7 +616,7 @@
 .templates-container {
     max-width: 90%;
     margin: 0 auto;
-    padding: 0 var(--spacing-lg);
+    padding: 0 20px;
 }
 
 .templates-title {
@@ -710,7 +712,7 @@
     z-index: 2;
     max-width: 90%;
     margin: 0 auto;
-    padding: 0 var(--spacing-lg);
+    padding: 0 20px;
     text-align: center;
 }
 
@@ -767,7 +769,7 @@
 @media (max-width: 768px) {
     .templates-container {
         max-width: 85%;
-        padding: 0 var(--spacing-md);
+        padding: 0 16px;
     }
 
     .templates-section {
@@ -816,7 +818,7 @@
 
     .custom-design-container {
         max-width: 80%;
-        padding: 0 var(--spacing-md);
+        padding: 0 16px;
     }
 
     .custom-design-title {
@@ -833,7 +835,7 @@
 @media (max-width: 480px) {
     .templates-container {
         max-width: 90%;
-        padding: 0 var(--spacing-sm);
+        padding: 0 10px;
     }
 
     .templates-section {
@@ -882,7 +884,7 @@
 
     .custom-design-container {
         max-width: 85%;
-        padding: 0 var(--spacing-sm);
+        padding: 0 10px;
     }
 
     .custom-design-title {
@@ -912,7 +914,7 @@
 }
 
 .smart-plans-container {
-    padding: var(--spacing-2xl) var(--spacing-lg);
+    padding: var(--spacing-2xl) 20px;
 }
 
 .smart-plans-title {
@@ -1104,7 +1106,7 @@
     position: relative;
     max-width: 90%;
     margin: 0 auto;
-    padding: 0 var(--spacing-lg);
+    padding: 0 20px;
 }
 
 .marketplace-header {
@@ -1169,7 +1171,7 @@
 .dropshipping-container {
     max-width: 90%;
     margin: 0 auto;
-    padding: 0 var(--spacing-lg);
+    padding: 0 20px;
 }
 
 .dropshipping-card {
@@ -1272,7 +1274,7 @@
 @media (max-width: 768px) {
     .marketplace-container {
         max-width: 85%;
-        padding: 0 var(--spacing-md);
+        padding: 0 16px;
     }
 
     .marketplace-section {
@@ -1302,7 +1304,7 @@
 
     .dropshipping-container {
         max-width: 85%;
-        padding: 0 var(--spacing-md);
+        padding: 0 16px;
     }
 
     .dropshipping-section {
@@ -1327,7 +1329,7 @@
 @media (max-width: 480px) {
     .marketplace-container {
         max-width: 90%;
-        padding: 0 var(--spacing-sm);
+        padding: 0 10px;
     }
 
     .marketplace-section {
@@ -1357,7 +1359,7 @@
 
     .dropshipping-container {
         max-width: 90%;
-        padding: 0 var(--spacing-sm);
+        padding: 0 10px;
     }
 
     .dropshipping-section {
@@ -1388,7 +1390,7 @@
 .split-content-container {
     max-width: 90%;
     margin: 0 auto;
-    padding: 0 var(--spacing-lg);
+    padding: 0 20px;
     display: flex;
     align-items: center;
     gap: var(--spacing-3xl);
@@ -1455,7 +1457,7 @@
 @media (max-width: 768px) {
     .split-content-container {
         max-width: 85%;
-        padding: 0 var(--spacing-md);
+        padding: 0 16px;
         gap: var(--spacing-xl);
     }
 
@@ -1478,7 +1480,7 @@
 @media (max-width: 480px) {
     .split-content-container {
         max-width: 90%;
-        padding: 0 var(--spacing-sm);
+        padding: 0 10px;
         gap: var(--spacing-lg);
     }
 
@@ -1516,7 +1518,7 @@
 .ar-shopping-container {
     max-width: 90%;
     margin: 0 auto;
-    padding: var(--spacing-lg) var(--spacing-lg);
+    padding: var(--spacing-lg) 20px;
     display: flex;
     align-items: center;
     gap: var(--spacing-3xl);
@@ -1622,7 +1624,7 @@
     }
 
     .ar-shopping-container {
-        padding: var(--spacing-xl) var(--spacing-md);
+        padding: var(--spacing-xl) 16px;
         gap: var(--spacing-xl);
     }
 
@@ -1649,7 +1651,7 @@
     }
 
     .emerging-tech-container {
-        padding: 0 var(--spacing-lg);
+        padding: 0 16px;
     }
 
     .emerging-tech-grid {
@@ -1677,7 +1679,7 @@
     }
 
     .ar-shopping-container {
-        padding: var(--spacing-lg) var(--spacing-sm);
+        padding: var(--spacing-lg) 10px;
         gap: var(--spacing-lg);
     }
 
@@ -1718,7 +1720,7 @@
     }
 
     .emerging-tech-container {
-        padding: 0 var(--spacing-md);
+        padding: 0 10px;
     }
 
     .emerging-tech-grid {
@@ -1759,7 +1761,7 @@
 .emerging-tech-container {
     max-width: 90%;
     margin: 0 auto;
-    padding: 0 var(--spacing-xl);
+    padding: 0 20px;
 }
 
 .emerging-tech-title {
@@ -1901,7 +1903,7 @@
 .testimonials-container {
     max-width: 90%;
     margin: 0 auto;
-    padding: 0 var(--spacing-lg);
+    padding: 0 20px;
     text-align: center;
 }
 
@@ -2108,7 +2110,7 @@
 @media (max-width: 768px) {
     .testimonials-container {
         max-width: 85%;
-        padding: 0 var(--spacing-md);
+        padding: 0 16px;
     }
 
     .testimonials-section {
@@ -2185,7 +2187,7 @@
 @media (max-width: 480px) {
     .testimonials-container {
         max-width: 90%;
-        padding: 0 var(--spacing-sm);
+        padding: 0 10px;
     }
 
     .testimonials-section {
