@@ -141,6 +141,41 @@ The project uses CSS custom properties (variables) for easy customization:
 2. Add navigation links in header
 3. Update JavaScript for smooth scrolling
 
+## Development History & Team Notes
+
+### Key Development Decisions
+
+#### Project Structure
+- **Decision**: Organized files into logical folders (css/, js/, images/)
+- **Reasoning**: Better maintainability and team collaboration
+- **Impact**: Easier for new team members to understand project structure
+
+#### Technology Choices
+- **Carousel**: Chose vanilla JavaScript over libraries for better performance
+- **CSS**: Used custom properties for easy theming
+- **Fonts**: Selected Inter for modern, readable typography
+
+#### Design Decisions
+- **Color Scheme**: Blue-based palette for trust and professionalism
+- **Layout**: Mobile-first responsive design
+- **Animations**: Subtle, smooth transitions for better UX
+
+### Team Guidelines
+
+1. **Documentation**: Always update this section when making significant changes
+2. **Code Style**: Follow existing patterns in CSS and JavaScript
+3. **Testing**: Test on multiple devices before committing
+4. **Performance**: Keep animations smooth and lightweight
+
+### Recent Updates
+
+- [Current Date]: Initial project setup and structure
+- [Current Date]: Header component with mobile navigation
+- [Current Date]: Carousel implementation with auto-play
+- [Current Date]: Footer component with responsive design
+
+---
+
 ## License
 
 This project is open source and available under the MIT License.
