@@ -1669,7 +1669,7 @@
     }
 
     .emerging-tech-grid {
-        grid-template-columns: 1fr;
+        grid-template-columns: repeat(1, 1fr) !important;
         gap: var(--spacing-lg);
     }
 
@@ -1859,14 +1859,14 @@
 
 .emerging-tech-card {
     position: relative;
-    background: url('../images/stars-background.png'), url('../images/gradient-background2.png'); // linear-gradient(135.35deg, #3264F5 -21.81%, rgba(255, 255, 255, 0) 35.54%, #3264F5 120.2%);
+    background: url('../images/stars-background.png'), url('../images/gradient-background2.png'); 
     background-size: contain, cover;
     background-position: right center, center;
     background-repeat: no-repeat, no-repeat;
     background-blend-mode: overlay;
     border-radius: 20px;
     padding: var(--spacing-2xl);
-    height: 400px;
+    height: 520px;
     max-width: 400px;
     width: 100%;
     display: flex;

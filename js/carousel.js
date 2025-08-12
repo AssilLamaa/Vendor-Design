@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     $('#heroCarousel').owlCarousel({
         items: 1,
         loop: true,
-        autoplay: true,
+        autoplay: false,
         autoplayTimeout: 5000,
         autoplayHoverPause: true,
         dots: false, // Disable default dots
